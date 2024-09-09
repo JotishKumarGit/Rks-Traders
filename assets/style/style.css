@@ -31,7 +31,7 @@
  }
 
  .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.671)), url("../image/bg-min.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.671)), url("../image/home-background.jpg");
     height: 70vh;
     width: 100%;
     background-size: cover;
@@ -304,20 +304,17 @@
  }
 
  .card-img-top:hover {
-    transform: scale(1.1);
-    /* Zooms in on hover */
- }
+   transform: scale(1.1);
+   /* Zooms in on hover */
+}
 
- .card-img-top {
-    transition: filter 0.3s ease;
-    filter: grayscale(100%);
-    /* Starts in grayscale */
- }
 
  .card-img-top:hover {
-    filter: grayscale(0%);
+   filter: grayscale(0%);
     /* Turns to color on hover */
  }
+
+
 
  .card-img-top {
     transition: box-shadow 0.3s ease;
@@ -325,7 +322,7 @@
 
  .card-img-top:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    /* Adds a shadow effect */
+   
  }
 
 
